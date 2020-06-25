@@ -13,14 +13,17 @@
 ![1](https://user-images.githubusercontent.com/22045179/85659774-daa66b80-b6ef-11ea-9267-79d37bdfe05c.png)
 
 lookupBackground()로 &가 있는지 체크
+
 ![2](https://user-images.githubusercontent.com/22045179/85659784-dd08c580-b6ef-11ea-85db-84b37943d960.png)
 
 execute에서 bg에 &의 유무 저장
+
 ![3](https://user-images.githubusercontent.com/22045179/85659791-de39f280-b6ef-11ea-9518-672bdcea87ee.png)
 ![4](https://user-images.githubusercontent.com/22045179/85659799-df6b1f80-b6ef-11ea-874d-35ba5a1e3911.png)
 
 bg 가 true 이면(background 실행이면) bg 를 0 으로 바꿔줌
 bg 가 false 이면(foreground 실행이면) waitpid로 프로세스가 끝나는 것을 기다림 
+
 ![4](https://user-images.githubusercontent.com/22045179/85659799-df6b1f80-b6ef-11ea-874d-35ba5a1e3911.png)
 
 sleep 100 에 &를 붙일 경우 background에서 실행되어 바로 다음 line을 받는다.
